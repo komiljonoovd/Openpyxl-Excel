@@ -7,6 +7,7 @@ wb = openpyxl.load_workbook(filename='input.xlsx', data_only=True)
 
 sheets = wb.active
 
+# equate sheet to value use it
 sheets['A1'] = 'First Name'
 sheets['B1'] = 'Last Name'
 sheets['C1'] = 'Email'
