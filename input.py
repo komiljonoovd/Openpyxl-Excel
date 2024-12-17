@@ -14,6 +14,7 @@ sheets['C1'] = 'Email'
 
 print(sheets['D1'].value)  # to print data use : .value
 
+
 # Fill with fake data with Faker
 for i in range(2, 32):
     sheets[f'A{i}'] = fakedata.first_name()
