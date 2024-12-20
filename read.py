@@ -1,6 +1,6 @@
 import openpyxl
 
-wb = openpyxl.load_workbook(filename='input.xlsx', data_only=True)
+wb = openpyxl.load_workbook(filename='input.xlsx')
 
 sheets = wb.active
 
