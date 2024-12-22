@@ -14,3 +14,4 @@ sheet['D2'].alignment = Alignment(horizontal=horizontal, vertical=vertical)
 sheet['F2'].alignment = Alignment(text_rotation=90)
 
 wb.save(filename='input.xlsx')
+wb.close()
